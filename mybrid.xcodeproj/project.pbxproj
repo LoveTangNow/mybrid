@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FAED2E51D3910BB0087BA96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAED2E41D3910BB0087BA96 /* AppDelegate.swift */; };
+		7FAED2E71D3910BB0087BA96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAED2E61D3910BB0087BA96 /* ViewController.swift */; };
+		7FAED2EA1D3910BB0087BA96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAED2E81D3910BB0087BA96 /* Main.storyboard */; };
+		7FAED2ED1D3910BB0087BA96 /* mybrid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FAED2EB1D3910BB0087BA96 /* mybrid.xcdatamodeld */; };
+		7FAED2EF1D3910BB0087BA96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FAED2EE1D3910BB0087BA96 /* Assets.xcassets */; };
+		7FAED2F21D3910BB0087BA96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FAED2F01D3910BB0087BA96 /* LaunchScreen.storyboard */; };
+		7FAED2FD1D3910BB0087BA96 /* mybridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAED2FC1D3910BB0087BA96 /* mybridTests.swift */; };
+		7FAED3081D3910BB0087BA96 /* mybridUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAED3071D3910BB0087BA96 /* mybridUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FAED2F91D3910BB0087BA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FAED2D91D3910BB0087BA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FAED2E01D3910BB0087BA96;
+			remoteInfo = mybrid;
+		};
+		7FAED3041D3910BB0087BA96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FAED2D91D3910BB0087BA96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FAED2E01D3910BB0087BA96;
+			remoteInfo = mybrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FAED2E11D3910BB0087BA96 /* mybrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mybrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAED2E41D3910BB0087BA96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FAED2E61D3910BB0087BA96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FAED2E91D3910BB0087BA96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FAED2EC1D3910BB0087BA96 /* mybrid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mybrid.xcdatamodel; sourceTree = "<group>"; };
+		7FAED2EE1D3910BB0087BA96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FAED2F11D3910BB0087BA96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FAED2F31D3910BB0087BA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FAED2F81D3910BB0087BA96 /* mybridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mybridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAED2FC1D3910BB0087BA96 /* mybridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mybridTests.swift; sourceTree = "<group>"; };
+		7FAED2FE1D3910BB0087BA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FAED3031D3910BB0087BA96 /* mybridUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mybridUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FAED3071D3910BB0087BA96 /* mybridUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mybridUITests.swift; sourceTree = "<group>"; };
+		7FAED3091D3910BB0087BA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FAED2DE1D3910BB0087BA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAED2F51D3910BB0087BA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAED3001D3910BB0087BA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FAED2D81D3910BB0087BA96 = {
+			isa = PBXGroup;
+			children = (
+				7FAED2E31D3910BB0087BA96 /* mybrid */,
+				7FAED2FB1D3910BB0087BA96 /* mybridTests */,
+				7FAED3061D3910BB0087BA96 /* mybridUITests */,
+				7FAED2E21D3910BB0087BA96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FAED2E21D3910BB0087BA96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FAED2E11D3910BB0087BA96 /* mybrid.app */,
+				7FAED2F81D3910BB0087BA96 /* mybridTests.xctest */,
+				7FAED3031D3910BB0087BA96 /* mybridUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FAED2E31D3910BB0087BA96 /* mybrid */ = {
+			isa = PBXGroup;
+			children = (
+				7FAED2E41D3910BB0087BA96 /* AppDelegate.swift */,
+				7FAED2E61D3910BB0087BA96 /* ViewController.swift */,
+				7FAED2E81D3910BB0087BA96 /* Main.storyboard */,
+				7FAED2EE1D3910BB0087BA96 /* Assets.xcassets */,
+				7FAED2F01D3910BB0087BA96 /* LaunchScreen.storyboard */,
+				7FAED2F31D3910BB0087BA96 /* Info.plist */,
+				7FAED2EB1D3910BB0087BA96 /* mybrid.xcdatamodeld */,
+			);
+			path = mybrid;
+			sourceTree = "<group>";
+		};
+		7FAED2FB1D3910BB0087BA96 /* mybridTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FAED2FC1D3910BB0087BA96 /* mybridTests.swift */,
+				7FAED2FE1D3910BB0087BA96 /* Info.plist */,
+			);
+			path = mybridTests;
+			sourceTree = "<group>";
+		};
+		7FAED3061D3910BB0087BA96 /* mybridUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FAED3071D3910BB0087BA96 /* mybridUITests.swift */,
+				7FAED3091D3910BB0087BA96 /* Info.plist */,
+			);
+			path = mybridUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FAED2E01D3910BB0087BA96 /* mybrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAED30C1D3910BB0087BA96 /* Build configuration list for PBXNativeTarget "mybrid" */;
+			buildPhases = (
+				7FAED2DD1D3910BB0087BA96 /* Sources */,
+				7FAED2DE1D3910BB0087BA96 /* Frameworks */,
+				7FAED2DF1D3910BB0087BA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mybrid;
+			productName = mybrid;
+			productReference = 7FAED2E11D3910BB0087BA96 /* mybrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FAED2F71D3910BB0087BA96 /* mybridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAED30F1D3910BB0087BA96 /* Build configuration list for PBXNativeTarget "mybridTests" */;
+			buildPhases = (
+				7FAED2F41D3910BB0087BA96 /* Sources */,
+				7FAED2F51D3910BB0087BA96 /* Frameworks */,
+				7FAED2F61D3910BB0087BA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAED2FA1D3910BB0087BA96 /* PBXTargetDependency */,
+			);
+			name = mybridTests;
+			productName = mybridTests;
+			productReference = 7FAED2F81D3910BB0087BA96 /* mybridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FAED3021D3910BB0087BA96 /* mybridUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FAED3121D3910BB0087BA96 /* Build configuration list for PBXNativeTarget "mybridUITests" */;
+			buildPhases = (
+				7FAED2FF1D3910BB0087BA96 /* Sources */,
+				7FAED3001D3910BB0087BA96 /* Frameworks */,
+				7FAED3011D3910BB0087BA96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAED3051D3910BB0087BA96 /* PBXTargetDependency */,
+			);
+			name = mybridUITests;
+			productName = mybridUITests;
+			productReference = 7FAED3031D3910BB0087BA96 /* mybridUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FAED2D91D3910BB0087BA96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Thomas Liu";
+				TargetAttributes = {
+					7FAED2E01D3910BB0087BA96 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5898723MBJ;
+					};
+					7FAED2F71D3910BB0087BA96 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5898723MBJ;
+						TestTargetID = 7FAED2E01D3910BB0087BA96;
+					};
+					7FAED3021D3910BB0087BA96 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5898723MBJ;
+						TestTargetID = 7FAED2E01D3910BB0087BA96;
+					};
+				};
+			};
+			buildConfigurationList = 7FAED2DC1D3910BB0087BA96 /* Build configuration list for PBXProject "mybrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FAED2D81D3910BB0087BA96;
+			productRefGroup = 7FAED2E21D3910BB0087BA96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FAED2E01D3910BB0087BA96 /* mybrid */,
+				7FAED2F71D3910BB0087BA96 /* mybridTests */,
+				7FAED3021D3910BB0087BA96 /* mybridUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FAED2DF1D3910BB0087BA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAED2F21D3910BB0087BA96 /* LaunchScreen.storyboard in Resources */,
+				7FAED2EF1D3910BB0087BA96 /* Assets.xcassets in Resources */,
+				7FAED2EA1D3910BB0087BA96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAED2F61D3910BB0087BA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAED3011D3910BB0087BA96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FAED2DD1D3910BB0087BA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAED2E71D3910BB0087BA96 /* ViewController.swift in Sources */,
+				7FAED2E51D3910BB0087BA96 /* AppDelegate.swift in Sources */,
+				7FAED2ED1D3910BB0087BA96 /* mybrid.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAED2F41D3910BB0087BA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAED2FD1D3910BB0087BA96 /* mybridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FAED2FF1D3910BB0087BA96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FAED3081D3910BB0087BA96 /* mybridUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FAED2FA1D3910BB0087BA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FAED2E01D3910BB0087BA96 /* mybrid */;
+			targetProxy = 7FAED2F91D3910BB0087BA96 /* PBXContainerItemProxy */;
+		};
+		7FAED3051D3910BB0087BA96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FAED2E01D3910BB0087BA96 /* mybrid */;
+			targetProxy = 7FAED3041D3910BB0087BA96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FAED2E81D3910BB0087BA96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAED2E91D3910BB0087BA96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FAED2F01D3910BB0087BA96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FAED2F11D3910BB0087BA96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FAED30A1D3910BB0087BA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FAED30B1D3910BB0087BA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FAED30D1D3910BB0087BA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mybrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasLiu.jiacheng.mybrid.mybrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FAED30E1D3910BB0087BA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mybrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasLiu.jiacheng.mybrid.mybrid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FAED3101D3910BB0087BA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mybridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasLiu.jiacheng.mybrid.mybridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mybrid.app/mybrid";
+			};
+			name = Debug;
+		};
+		7FAED3111D3910BB0087BA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mybridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasLiu.jiacheng.mybrid.mybridTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mybrid.app/mybrid";
+			};
+			name = Release;
+		};
+		7FAED3131D3910BB0087BA96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mybridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasLiu.jiacheng.mybrid.mybridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mybrid;
+			};
+			name = Debug;
+		};
+		7FAED3141D3910BB0087BA96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mybridUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasLiu.jiacheng.mybrid.mybridUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mybrid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FAED2DC1D3910BB0087BA96 /* Build configuration list for PBXProject "mybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAED30A1D3910BB0087BA96 /* Debug */,
+				7FAED30B1D3910BB0087BA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FAED30C1D3910BB0087BA96 /* Build configuration list for PBXNativeTarget "mybrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAED30D1D3910BB0087BA96 /* Debug */,
+				7FAED30E1D3910BB0087BA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FAED30F1D3910BB0087BA96 /* Build configuration list for PBXNativeTarget "mybridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAED3101D3910BB0087BA96 /* Debug */,
+				7FAED3111D3910BB0087BA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FAED3121D3910BB0087BA96 /* Build configuration list for PBXNativeTarget "mybridUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FAED3131D3910BB0087BA96 /* Debug */,
+				7FAED3141D3910BB0087BA96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7FAED2EB1D3910BB0087BA96 /* mybrid.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7FAED2EC1D3910BB0087BA96 /* mybrid.xcdatamodel */,
+			);
+			currentVersion = 7FAED2EC1D3910BB0087BA96 /* mybrid.xcdatamodel */;
+			path = mybrid.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7FAED2D91D3910BB0087BA96 /* Project object */;
+}
